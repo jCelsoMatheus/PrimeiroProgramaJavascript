@@ -1,0 +1,25 @@
+Primeiro Programa: 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+</head> 
+<body> 
+<script type="text/javascript"> 
+   var nome= prompt('Digite o seu nome'); 
+   alert('Boa noite, ' + nome + '!'); 
+    
+   var nota1= parseFloat(prompt('Digite a nota1:')); 
+   var nota2= parseFloat(prompt('Digite a nota2:')); 
+    
+   var media = (nota1 + nota2)/2; 
+   if (media >= 5) 
+       alert('Parabens, voce passou.. Sua media foi: ' + media); 
+   else 
+       alert('Tem que estudar mais.. Sua media foi: ' + media); 
+  
+</script> 
+</body> 
+</html> 
+ 
+ 
